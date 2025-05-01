@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini-reactive-system</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>mini-reactive-system</h2>
+        <div class="count-section">
+            <div class="count" id="count">0</div>
+            <button id="increment">count up</button>
+            <button id="decrement">count down</button>
+            <p>
+                <label>input number：</label>
+                <input type="number" id="direct-input" value="0">
+            </p>
+        </div>
+
+        <div class="name-section">
+            <label>name</label>
+            <input type="text" id="input" placeholder="Please enter your name">
+            <div id="output"></div>
+        </div>
+    </div>
+
+    <script src="app.js" type="module"></script>
+</body>
+
+</html>
